@@ -52,9 +52,9 @@ function switchCard(direction){
 function addCard(){
     let newterm = document.getElementById("new-term").value;
     let newDef = document.getElementById("new-definition").value;
-    console.log("we made it");
+    console.log("adding");
     if (newterm === null || newDef === null){
-        console.log("null asf");
+        console.log("null fields");
         return;
     }
     flashcards.push({term : newterm, definition : newDef});
