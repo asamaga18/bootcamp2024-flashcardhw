@@ -8,7 +8,7 @@ const flashcards = [
 
 // These two variables will come in handy
 let currentIndex = 0;
-let showingTerm = true;
+let showingTerm = true;  
 
 // Start with this function to simply display the card
 function displayCard() {
